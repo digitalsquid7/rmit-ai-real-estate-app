@@ -1,0 +1,3 @@
+chat-gpt:
+  api-key: YOUR API KEY
+  base-url: https://openai.vocareum.com/v1

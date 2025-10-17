@@ -1,0 +1,94 @@
+{
+  "listings": [
+    {
+      "price": 325000,
+      "neighborhood": "Maple Harbor",
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1475,
+      "description": "Bright end-unit townhouse on a quiet lane in Maple Harbor. An open living area flows to an updated kitchen with quartz counters and a breakfast bar. Enjoy a private patio and a small fenced yard, plus a garage with storage."
+    },
+    {
+      "price": 910000,
+      "neighborhood": "Silver Quay",
+      "property_type": "Condo",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqft": 1280,
+      "description": "Contemporary condo in Silver Quay with wide canal views from the main living area. Floor-to-ceiling windows, a sleek kitchen, and a primary suite with a walk-in closet create an easy, refined vibe. Building amenities include a fitness room, pool, and secure parking."
+    },
+    {
+      "price": 1850000,
+      "neighborhood": "Aurora Bend",
+      "property_type": "Single-Family",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqft": 3650,
+      "description": "Modern single-family home in Aurora Bend featuring a grand two-story foyer and a chef's kitchen. The layout includes a main-level suite, a generous bonus room, and custom built-ins. A three-car garage and a landscaped backyard with a fire pit make entertaining effortless."
+    },
+    {
+      "price": 245000,
+      "neighborhood": "Cedar Meadow",
+      "property_type": "Cottage",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqft": 980,
+      "description": "Charming cottage in Cedar Meadow with original hardwoods and a sunny front porch. The remodeled kitchen opens to a dining nook overlooking the garden. Newer roof and energy-efficient windows add comfort and peace of mind."
+    },
+    {
+      "price": 675000,
+      "neighborhood": "Lantern Hollow",
+      "property_type": "Loft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqft": 1020,
+      "description": "Industrial-style loft in Lantern Hollow with 12-foot ceilings and exposed beams. Massive windows drench the space in light and frame cityscape sunsets. A large island kitchen and a walk-in closet provide practical everyday comfort."
+    },
+    {
+      "price": 1120000,
+      "neighborhood": "Stonebridge Commons",
+      "property_type": "Duplex",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqft": 2400,
+      "description": "Well-maintained duplex in Stonebridge Commons with two distinct residences under one roof. Each side has a bright living area and an updated kitchen, ideal for multi-generational living or rental income. Separate entrances, modernized systems, and off-street parking complete the package."
+    },
+    {
+      "price": 98000,
+      "neighborhood": "Pinebrook Flats",
+      "property_type": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "area_sqft": 420,
+      "description": "Smartly designed studio in Pinebrook Flats that maximizes every square foot. A flexible living zone includes an alcove for a murphy bed and a full-size closet. Private balcony and access to a shared laundry room make daily routines easy."
+    },
+    {
+      "price": 3100000,
+      "neighborhood": "Crown Vista",
+      "property_type": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqft": 3200,
+      "description": "Skyline-view penthouse in Crown Vista with a private elevator entrance. An expansive great room opens to a wraparound terrace for seamless indoor-outdoor living. Spa-like baths and two dedicated parking spaces elevate the experience."
+    },
+    {
+      "price": 459000,
+      "neighborhood": "Willow Trace",
+      "property_type": "Ranch",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1880,
+      "description": "Comfortable ranch in Willow Trace with single-level living and an airy great room. The updated kitchen features stainless appliances and a walk-in pantry. A covered patio overlooks a fenced yard with raised garden beds and a storage shed."
+    },
+    {
+      "price": 735000,
+      "neighborhood": "Riverlight Green",
+      "property_type": "Rowhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqft": 1650,
+      "description": "Contemporary rowhouse in Riverlight Green with a sunny open-plan main level. The top floor includes a flexible loft for office or media space and opens to a rooftop deck with planter boxes. An attached garage with an EV outlet and ample storage adds everyday convenience."
+    }
+  ]
+}
