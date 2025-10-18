@@ -13,7 +13,7 @@ recommendations that are based on the user's text input.
 
 1. Create virtual environment
    ```shell
-   venv\Scripts\python -m pip install -r requirements.txt
+   python -m venv venv
    ```
 
 2. Install requirements
