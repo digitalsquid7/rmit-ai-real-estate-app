@@ -1,4 +1,5 @@
 import logging
+import os
 
 from openai import OpenAI
 
@@ -19,6 +20,7 @@ def main():
      """)
 
     # Setup config, logging, AI client, real estate listings and ChromaDB collection.
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
     config = load_config('config.yaml')
     setup_logging(config)
     ai_client = OpenAI(base_url=config.base_url, api_key=config.api_key)
