@@ -11,6 +11,9 @@ recommendations that are based on the user's text input.
 
 ## How to set up
 
+> [!NOTE]
+> The example commands are for a Windows terminal. Linux and Mac commands will differ.
+
 1. Create virtual environment
    ```shell
    python -m venv venv
