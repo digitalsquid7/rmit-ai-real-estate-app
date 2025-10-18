@@ -1,94 +1,184 @@
 {
   "listings": [
     {
-      "price": 325000,
-      "neighborhood": "Maple Harbor",
-      "property_type": "Townhouse",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "area_sqft": 1475,
-      "description": "Bright end-unit townhouse on a quiet lane in Maple Harbor. An open living area flows to an updated kitchen with quartz counters and a breakfast bar. Enjoy a private patio and a small fenced yard, plus a garage with storage."
-    },
-    {
-      "price": 910000,
-      "neighborhood": "Silver Quay",
+      "price": 740000,
+      "neighborhood": "Silver Tide Promenade",
       "property_type": "Condo",
       "bedrooms": 2,
       "bathrooms": 2,
-      "area_sqft": 1280,
-      "description": "Contemporary condo in Silver Quay with wide canal views from the main living area. Floor-to-ceiling windows, a sleek kitchen, and a primary suite with a walk-in closet create an easy, refined vibe. Building amenities include a fitness room, pool, and secure parking."
+      "area_sqft": 1100,
+      "description": "Perched directly above a sandy arc of shoreline, this top-floor condo frames wide ocean views from nearly every room. The open kitchen features quartz counters and a breakfast bar, perfect for easy entertaining. A covered balcony catches the sea breeze, and the complex offers a lap pool and secure parking."
     },
     {
-      "price": 1850000,
-      "neighborhood": "Aurora Bend",
-      "property_type": "Single-Family",
+      "price": 420000,
+      "neighborhood": "Pine Crest Ridge",
+      "property_type": "Cabin",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1450,
+      "description": "Tucked among tall pines on a quiet ridge, this timber cabin offers a classic mountain retreat. A stone fireplace anchors the great room, and the wraparound deck looks out toward distant peaks. Trails start just beyond the back fence, and the detached garage stores skis and bikes."
+    },
+    {
+      "price": 650000,
+      "neighborhood": "Old Parliament Quarter",
+      "property_type": "Loft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqft": 900,
+      "description": "Set in the capital's historic Old Parliament Quarter, this light-filled loft blends brick walls with sleek finishes. An airy living area flows to a chef's kitchen with a long island and gas range. Cafes, galleries, and two metro lines are within a five-minute stroll."
+    },
+    {
+      "price": 540000,
+      "neighborhood": "Maple Brook Estates",
+      "property_type": "Single-Family Home",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqft": 2600,
+      "description": "On a tree-lined cul-de-sac in Maple Brook Estates, this spacious single-family home balances comfort and convenience. The main level includes a formal dining room, a sunny family room, and an updated kitchen with pantry. The fenced yard features a pergola and play space, and the three-car garage adds storage."
+    },
+    {
+      "price": 780000,
+      "neighborhood": "Cobalt Lake Shores",
+      "property_type": "Lakehouse",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqft": 2300,
+      "description": "Fronting the calm waters of Cobalt Lake, this contemporary lakehouse is made for long weekends and summer evenings. Walls of glass open to a broad deck with a built-in grill and private dock. Inside, a vaulted living room and a main-floor suite make hosting easy."
+    },
+    {
+      "price": 510000,
+      "neighborhood": "Circuit Commons",
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1600,
+      "description": "In the walkable Circuit Commons district, this modern townhouse pairs smart-home features with warm finishes. The open-plan main floor connects to a small patio for morning coffee. Community greenways, a makers market, and shuttle stops are just around the corner."
+    },
+    {
+      "price": 620000,
+      "neighborhood": "Sunwheel Plains",
+      "property_type": "Farmhouse",
       "bedrooms": 5,
-      "bathrooms": 4,
-      "area_sqft": 3650,
-      "description": "Modern single-family home in Aurora Bend featuring a grand two-story foyer and a chef's kitchen. The layout includes a main-level suite, a generous bonus room, and custom built-ins. A three-car garage and a landscaped backyard with a fire pit make entertaining effortless."
+      "bathrooms": 3,
+      "area_sqft": 3400,
+      "description": "Spread across five pastoral acres in Sunwheel Plains, this updated farmhouse delivers space to breathe. A country kitchen with a range hearth sits at the home's center, while generous bedrooms line the upstairs hall. A classic barn and raised gardens invite hobby farming."
     },
     {
-      "price": 245000,
-      "neighborhood": "Cedar Meadow",
+      "price": 2400000,
+      "neighborhood": "Skyline Crown District",
+      "property_type": "Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqft": 2100,
+      "description": "Crowning a boutique tower in the Skyline Crown District, this penthouse commands sweeping city and river views. Floor-to-ceiling glass opens to a private roof terrace with an outdoor kitchen and fire table. Residents enjoy concierge service, a fitness studio, and two deeded parking spaces."
+    },
+    {
+      "price": 315000,
+      "neighborhood": "Gull Harbor",
       "property_type": "Cottage",
       "bedrooms": 2,
       "bathrooms": 1,
       "area_sqft": 980,
-      "description": "Charming cottage in Cedar Meadow with original hardwoods and a sunny front porch. The remodeled kitchen opens to a dining nook overlooking the garden. Newer roof and energy-efficient windows add comfort and peace of mind."
+      "description": "Nestled on a lane above the harbor, this shingled cottage captures the charm of Gull Harbor. A cozy living room with a potbelly stove leads to a bright eat-in kitchen. The fenced yard blooms with coastal herbs, and the beach path begins a block away."
     },
     {
-      "price": 675000,
-      "neighborhood": "Lantern Hollow",
-      "property_type": "Loft",
-      "bedrooms": 1,
-      "bathrooms": 1,
-      "area_sqft": 1020,
-      "description": "Industrial-style loft in Lantern Hollow with 12-foot ceilings and exposed beams. Massive windows drench the space in light and frame cityscape sunsets. A large island kitchen and a walk-in closet provide practical everyday comfort."
+      "price": 475000,
+      "neighborhood": "Mossvale Grove",
+      "property_type": "Eco-Home",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1700,
+      "description": "Hidden in Mossvale Grove, this eco-home is designed for quiet living among the ferns. Solar arrays, battery backup, and a rainwater system keep utility bills low without sacrificing comfort. Clerestory windows and polished concrete floors create a calm, modern aesthetic."
     },
     {
-      "price": 1120000,
-      "neighborhood": "Stonebridge Commons",
-      "property_type": "Duplex",
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "area_sqft": 2400,
-      "description": "Well-maintained duplex in Stonebridge Commons with two distinct residences under one roof. Each side has a bright living area and an updated kitchen, ideal for multi-generational living or rental income. Separate entrances, modernized systems, and off-street parking complete the package."
+      "price": 1750000,
+      "neighborhood": "Alpenglow Summit",
+      "property_type": "Chalet",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqft": 3800,
+      "description": "At Alpenglow Summit, this chalet offers true ski-in access and panoramic alpine vistas. A double-height great room opens to a hot tub deck, perfect after long runs. The lower level includes a bunk room and media lounge for crowd-pleasing weekends."
     },
     {
-      "price": 98000,
-      "neighborhood": "Pinebrook Flats",
+      "price": 280000,
+      "neighborhood": "Metro Needle",
       "property_type": "Studio",
       "bedrooms": 0,
       "bathrooms": 1,
       "area_sqft": 420,
-      "description": "Smartly designed studio in Pinebrook Flats that maximizes every square foot. A flexible living zone includes an alcove for a murphy bed and a full-size closet. Private balcony and access to a shared laundry room make daily routines easy."
+      "description": "This efficient studio in Metro Needle puts the skyline at your doorstep. High ceilings, tall windows, and a clever wall bed maximize space and light. Elevator access, bike storage, and rapid transit downstairs make car-free living effortless."
     },
     {
-      "price": 3100000,
-      "neighborhood": "Crown Vista",
-      "property_type": "Penthouse",
-      "bedrooms": 4,
-      "bathrooms": 4,
-      "area_sqft": 3200,
-      "description": "Skyline-view penthouse in Crown Vista with a private elevator entrance. An expansive great room opens to a wraparound terrace for seamless indoor-outdoor living. Spa-like baths and two dedicated parking spaces elevate the experience."
-    },
-    {
-      "price": 459000,
-      "neighborhood": "Willow Trace",
-      "property_type": "Ranch",
+      "price": 460000,
+      "neighborhood": "Red Mesa Bluffs",
+      "property_type": "Adobe",
       "bedrooms": 3,
       "bathrooms": 2,
-      "area_sqft": 1880,
-      "description": "Comfortable ranch in Willow Trace with single-level living and an airy great room. The updated kitchen features stainless appliances and a walk-in pantry. A covered patio overlooks a fenced yard with raised garden beds and a storage shed."
+      "area_sqft": 1900,
+      "description": "Sheltered by red rock formations in Red Mesa Bluffs, this handcrafted adobe embraces the desert climate. Thick earthen walls temper the heat while vigas and nichos add artisanal character. An inner courtyard with a shade ramada encourages evening gatherings."
     },
     {
-      "price": 735000,
-      "neighborhood": "Riverlight Green",
+      "price": 395000,
+      "neighborhood": "Willowbend Quay",
+      "property_type": "Bungalow",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqft": 1200,
+      "description": "On Willowbend Quay, this riverfront bungalow feels like a getaway in the city. French doors open to a deep deck overlooking slow-moving water and willow trees. An updated kitchen and two full baths make everyday life simple and comfortable."
+    },
+    {
+      "price": 6200000,
+      "neighborhood": "Azure Cliffs Reserve",
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "area_sqft": 6200,
+      "description": "Poised atop Azure Cliffs Reserve, this sprawling villa blends resort amenities with refined finishes. An infinity pool merges with the horizon, while a catering-ready kitchen and wine room support grand entertaining. A private cinema, gym, and six en-suite bedrooms define uncompromising comfort."
+    },
+    {
+      "price": 890000,
+      "neighborhood": "Lantern Row",
       "property_type": "Rowhouse",
-      "bedrooms": 3,
+      "bedrooms": 4,
       "bathrooms": 3,
-      "area_sqft": 1650,
-      "description": "Contemporary rowhouse in Riverlight Green with a sunny open-plan main level. The top floor includes a flexible loft for office or media space and opens to a rooftop deck with planter boxes. An attached garage with an EV outlet and ample storage adds everyday convenience."
+      "area_sqft": 2100,
+      "description": "Along Lantern Row's cobblestones, this restored brick rowhouse combines period details with modern systems. Original fireplaces and millwork sit beside a sleek kitchen and spa-like baths. A pocket garden with brick seating offers a quiet escape."
+    },
+    {
+      "price": 710000,
+      "neighborhood": "Granite Works",
+      "property_type": "Duplex",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "area_sqft": 3200,
+      "description": "In the revitalized Granite Works neighborhood, this well-maintained duplex offers two mirror-image three-bedroom flats. Each unit features hardwood floors, updated kitchens, and separate utilities. Off-street parking and a fenced yard enhance rental appeal."
+    },
+    {
+      "price": 115000,
+      "neighborhood": "Spruce Hollow",
+      "property_type": "Tiny House",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqft": 380,
+      "description": "Tucked in Spruce Hollow, this thoughtfully crafted tiny house embraces minimalist living. A lofted sleeping area, built-in storage, and a compact kitchen make the most of every inch. The covered porch faces a meadow, inviting slow mornings."
+    },
+    {
+      "price": 680000,
+      "neighborhood": "Coral Cay Village",
+      "property_type": "Coastal Cottage",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqft": 1450,
+      "description": "Set along a palm-lined lane in Coral Cay Village, this breezy coastal cottage balances indoor comfort with outdoor living. Double sets of French doors open to a screened veranda that catches the trade winds. A short stroll leads to sandy coves and a community dock."
+    },
+    {
+      "price": 720000,
+      "neighborhood": "Harbor Innovation Pier",
+      "property_type": "Condo",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqft": 1050,
+      "description": "Overlooking working slips at Harbor Innovation Pier, this corner condo showcases floor-to-ceiling glass and harbor views. The kitchen features integrated appliances and a quartz waterfall island. Residents enjoy a rooftop lounge, co-working space, and secure bike room."
     }
   ]
 }

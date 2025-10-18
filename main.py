@@ -1,76 +1,48 @@
-import os
-# from langchain.llms import OpenAI
+import logging
+
 from openai import OpenAI
-import yaml
 
-
-REAL_ESTATE_LISTINGS_PATH = "real_estate_listings.json"
+from home_match.config import load_config
+from home_match.database import setup_collection, query_collection
+from home_match.genai import generate_real_estate_listings, generate_home_recommendation
 
 
 def main():
-    config = load_config('local.yaml')
+    print(r"""
+      _    _                        __  __       _       _     
+     | |  | |                      |  \/  |     | |     | |    
+     | |__| | ___  _ __ ___   ___  | \  / | __ _| |_ ___| |__  
+     |  __  |/ _ \| '_ ` _ \ / _ \ | |\/| |/ _` | __/ __| '_ \ 
+     | |  | | (_) | | | | | |  __/ | |  | | (_| | || (__| | | |
+     |_|  |_|\___/|_| |_| |_|\___| |_|  |_|\__,_|\__\___|_| |_|
 
-    ai_client = OpenAI(
-        base_url=config.base_url,
-        api_key=config.api_key,
-    )
+     """)
 
-    generate_real_estate_listings(ai_client)
+    # Setup config, logging, AI client, real estate listings and ChromaDB collection.
+    config = load_config('config.yaml')
+    setup_logging(config)
+    ai_client = OpenAI(base_url=config.base_url, api_key=config.api_key)
+    generate_real_estate_listings(config, ai_client)
+    collection = setup_collection(config)
 
+    # Gather user input.
+    print("Describe your perfect home, what would it look like? What features or qualities matter most to you?")
+    user_input = input("> ")
 
-class Config:
-    def __init__(self):
-        self.base_url = None
-        self.api_key = None
-
-
-def load_config(path):
-    with open(path, 'r') as file:
-        yaml_config = yaml.safe_load(file)
-
-        config = Config()
-        config.base_url = yaml_config['chat-gpt']['base-url']
-        config.api_key = yaml_config['chat-gpt']['api-key']
-
-        return config
+    # Retrieve relevant listing from ChromaDB collection and use AI to generate a personalised recommendation.
+    relevant_listings = query_collection(collection, user_input)
+    recommendation = generate_home_recommendation(user_input, relevant_listings, ai_client)
+    print(f"\n{recommendation}")
 
 
-def generate_real_estate_listings(ai_client):
-    """Generates Real Estate listings using AI and saves the results as a JSON object to a local file.
-    If the file already exists, this function does nothing."""
+def setup_logging(config):
+    logging.basicConfig(level=config.logging_level, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    if os.path.exists(REAL_ESTATE_LISTINGS_PATH):
-        return
-
-    prompt = """
-    Generate 10 diverse Real Estate listings.
-    Only generate fake data. Don't use real data.
-    
-    Each listing must be in the following JSON format:
-    {
-      "price": <integer>,
-      "neighborhood": <string>,
-      "property_type": <string>,
-      "bedrooms": <integer>,
-      "bathrooms": <integer>,
-      "area_sqft": <integer>,
-      "description": <3-4 sentences>
-    }
-    
-    Return ONLY valid JSON structured as:
-    {
-      "listings": [ ... ]
-    }
-    """
-
-    response = ai_client.chat.completions.create(
-        model="gpt-5",
-        response_format={"type": "json_object"},
-        messages=[{"role": "system", "content": prompt}]
-    )
-
-    with open(REAL_ESTATE_LISTINGS_PATH, 'w') as file:
-        file.write(response.choices[0].message.content)
+    # Set noisy loggers to WARNING level.
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
+    logging.getLogger("openai").setLevel(logging.WARNING)
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger('chromadb').setLevel(logging.WARNING)
 
 
 if __name__ == "__main__":
