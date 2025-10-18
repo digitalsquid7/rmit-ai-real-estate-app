@@ -11,16 +11,17 @@ def query_collection(collection, query):
 
 def setup_collection(config):
     """Create a ChromaDB collection using real estate listing from the local JSON file."""
+
     client = chromadb.Client(chromadb.Settings(anonymized_telemetry=False))
     collection = client.create_collection("real_estate_listings")
-    documents = generate_chromadb_documents(config)
+    documents = generate_documents(config)
     ids = [str(i) for i in range(1, len(documents) + 1)]
     collection.add(documents=documents, ids=ids)
 
     return collection
 
 
-def generate_chromadb_documents(config):
+def generate_documents(config):
     """Create documents for ChromaDB from the real estate listings JSON file.
     Vector searches work best on strings, so this function converts the JSON listing objects to strings."""
     documents = []

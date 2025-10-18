@@ -39,7 +39,7 @@ based on your text input.
 
 ## Real estate listings
 
-Fake real estate listings are generated with AI and saved to the [real_estate_listings.json](real_estate_listings.json) 
+Fake real estate listings are generated with AI and saved to the [listings.json](listings.json) 
 file. If the file already exists when the program is executed, the existing file will be used and a new one will not
 be generated.
 

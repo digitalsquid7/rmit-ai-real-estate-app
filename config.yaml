@@ -1,4 +1,4 @@
 api-key: YOUR API KEY
 base-url: https://openai.vocareum.com/v1
-real-estate-listings-path: real_estate_listings.json
+real-estate-listings-path: listings.json
 logging-level: ERROR
